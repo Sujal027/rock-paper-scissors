@@ -108,5 +108,6 @@ document.querySelector("#reset").addEventListener("click" , () => {
     document.querySelector("#yourScore").innerText = 0;
     document.querySelector("#computerScore").innerText = 0;
     document.querySelector("#currentStatus").innerText = "";
-
+cs = 0;
+    ys = 0;
 })
