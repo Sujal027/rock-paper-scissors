@@ -5,7 +5,7 @@ cs = Number(cs);
 document.querySelector("#scissors").addEventListener("click", ()=>{
     let e =document.querySelector("#scissors");
    let n = Math.random()*10;
-    if( n >=0 && n <=3)
+    if(  n <=3)
     {
       c = "scissors";   
     }
@@ -39,7 +39,7 @@ else{
 document.querySelector("#rock").addEventListener("click", ()=>{
     let e =document.querySelector("#scissors");
    let n = Math.random()*10;
-    if( n >=0 && n <=3)
+    if( n <=3)
     {
       c = "scissors";   
     }
@@ -73,7 +73,7 @@ else{
 document.querySelector("#paper").addEventListener("click", ()=>{
     let e =document.querySelector("#scissors");
    let n = Math.random()*10;
-    if( n >=0 && n <=3)
+    if(  n <=3)
     {
       c = "scissors";   
     }
